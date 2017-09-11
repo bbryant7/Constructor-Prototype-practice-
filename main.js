@@ -29,7 +29,7 @@ let atticus = new Dog ("", "", false);
 // /_/ /_/\__,_/_/ /_/ /_/\__,_/_/ /_/____/
 
 // Human Constructor & Prototype
-function Human (pet, feed, cool) {
+function Human (cool) {
 this.cool = cool;
 this.pet = function (dog){
   return  dog.status = "happy"
