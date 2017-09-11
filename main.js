@@ -45,5 +45,5 @@ this.feed = function (dog){
 // Instances of Human
 // Needed: mason, julia
 
-let mason = new Human(true, false, false);
-let julia = new Human(false, true, true);
+let mason = new Human(false);
+let julia = new Human(true);
